@@ -23,6 +23,7 @@ const UserPage = (props) => {
             />
             <UserTable
                 dataUsers={dataUsers}
+                loadUser={loadUser}
             />
         </div>
     )

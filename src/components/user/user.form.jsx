@@ -4,6 +4,7 @@ import { createUserAPI } from "../../services/api.service";
 
 const UserForm = (props) => {
     const { loadUser } = props
+
     const [fullName, setFullName] = useState("")
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
